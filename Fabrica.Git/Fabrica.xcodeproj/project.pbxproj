@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4B4B2FE52E55D9B1002210E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B4B2FCC2E55D9AE002210E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B4B2FD32E55D9AE002210E2;
+			remoteInfo = Fabrica;
+		};
+		4B4B2FEF2E55D9B1002210E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B4B2FCC2E55D9AE002210E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B4B2FD32E55D9AE002210E2;
+			remoteInfo = Fabrica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B4B2FD42E55D9AE002210E2 /* Fabrica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fabrica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4B2FE42E55D9B1002210E2 /* FabricaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FabricaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4B2FEE2E55D9B1002210E2 /* FabricaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FabricaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4B4B30112E56C385002210E2 /* Exceptions for "Fabrica" folder in "Fabrica" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4B4B2FD32E55D9AE002210E2 /* Fabrica */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4B4B2FD62E55D9AE002210E2 /* Fabrica */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4B4B30112E56C385002210E2 /* Exceptions for "Fabrica" folder in "Fabrica" target */,
+			);
+			path = Fabrica;
+			sourceTree = "<group>";
+		};
+		4B4B2FE72E55D9B1002210E2 /* FabricaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FabricaTests;
+			sourceTree = "<group>";
+		};
+		4B4B2FF12E55D9B1002210E2 /* FabricaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FabricaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B4B2FD12E55D9AE002210E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4B2FE12E55D9B1002210E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4B2FEB2E55D9B1002210E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B4B2FCB2E55D9AE002210E2 = {
+			isa = PBXGroup;
+			children = (
+				4B4B2FD62E55D9AE002210E2 /* Fabrica */,
+				4B4B2FE72E55D9B1002210E2 /* FabricaTests */,
+				4B4B2FF12E55D9B1002210E2 /* FabricaUITests */,
+				4B4B2FD52E55D9AE002210E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B4B2FD52E55D9AE002210E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B4B2FD42E55D9AE002210E2 /* Fabrica.app */,
+				4B4B2FE42E55D9B1002210E2 /* FabricaTests.xctest */,
+				4B4B2FEE2E55D9B1002210E2 /* FabricaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B4B2FD32E55D9AE002210E2 /* Fabrica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4B2FF82E55D9B1002210E2 /* Build configuration list for PBXNativeTarget "Fabrica" */;
+			buildPhases = (
+				4B4B2FD02E55D9AE002210E2 /* Sources */,
+				4B4B2FD12E55D9AE002210E2 /* Frameworks */,
+				4B4B2FD22E55D9AE002210E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4B4B2FD62E55D9AE002210E2 /* Fabrica */,
+			);
+			name = Fabrica;
+			packageProductDependencies = (
+			);
+			productName = Fabrica;
+			productReference = 4B4B2FD42E55D9AE002210E2 /* Fabrica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B4B2FE32E55D9B1002210E2 /* FabricaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4B2FFB2E55D9B1002210E2 /* Build configuration list for PBXNativeTarget "FabricaTests" */;
+			buildPhases = (
+				4B4B2FE02E55D9B1002210E2 /* Sources */,
+				4B4B2FE12E55D9B1002210E2 /* Frameworks */,
+				4B4B2FE22E55D9B1002210E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B4B2FE62E55D9B1002210E2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B4B2FE72E55D9B1002210E2 /* FabricaTests */,
+			);
+			name = FabricaTests;
+			packageProductDependencies = (
+			);
+			productName = FabricaTests;
+			productReference = 4B4B2FE42E55D9B1002210E2 /* FabricaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B4B2FED2E55D9B1002210E2 /* FabricaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4B2FFE2E55D9B1002210E2 /* Build configuration list for PBXNativeTarget "FabricaUITests" */;
+			buildPhases = (
+				4B4B2FEA2E55D9B1002210E2 /* Sources */,
+				4B4B2FEB2E55D9B1002210E2 /* Frameworks */,
+				4B4B2FEC2E55D9B1002210E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B4B2FF02E55D9B1002210E2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B4B2FF12E55D9B1002210E2 /* FabricaUITests */,
+			);
+			name = FabricaUITests;
+			packageProductDependencies = (
+			);
+			productName = FabricaUITests;
+			productReference = 4B4B2FEE2E55D9B1002210E2 /* FabricaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B4B2FCC2E55D9AE002210E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4B4B2FD32E55D9AE002210E2 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4B4B2FE32E55D9B1002210E2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4B4B2FD32E55D9AE002210E2;
+					};
+					4B4B2FED2E55D9B1002210E2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4B4B2FD32E55D9AE002210E2;
+					};
+				};
+			};
+			buildConfigurationList = 4B4B2FCF2E55D9AE002210E2 /* Build configuration list for PBXProject "Fabrica" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B4B2FCB2E55D9AE002210E2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4B4B2FD52E55D9AE002210E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B4B2FD32E55D9AE002210E2 /* Fabrica */,
+				4B4B2FE32E55D9B1002210E2 /* FabricaTests */,
+				4B4B2FED2E55D9B1002210E2 /* FabricaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B4B2FD22E55D9AE002210E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4B2FE22E55D9B1002210E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4B2FEC2E55D9B1002210E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B4B2FD02E55D9AE002210E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4B2FE02E55D9B1002210E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4B2FEA2E55D9B1002210E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B4B2FE62E55D9B1002210E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B4B2FD32E55D9AE002210E2 /* Fabrica */;
+			targetProxy = 4B4B2FE52E55D9B1002210E2 /* PBXContainerItemProxy */;
+		};
+		4B4B2FF02E55D9B1002210E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B4B2FD32E55D9AE002210E2 /* Fabrica */;
+			targetProxy = 4B4B2FEF2E55D9B1002210E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B4B2FF62E55D9B1002210E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B4B2FF72E55D9B1002210E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B4B2FF92E55D9B1002210E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fabrica/Preview Content\"";
+				DEVELOPMENT_TEAM = 97783J4PR3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fabrica/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Show us your CAD print";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Include your photos to show us the material of you CAD!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wyper.Fabrica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B4B2FFA2E55D9B1002210E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fabrica/Preview Content\"";
+				DEVELOPMENT_TEAM = 97783J4PR3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fabrica/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Show us your CAD print";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Include your photos to show us the material of you CAD!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wyper.Fabrica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B4B2FFC2E55D9B1002210E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wyper.FabricaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fabrica.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fabrica";
+			};
+			name = Debug;
+		};
+		4B4B2FFD2E55D9B1002210E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wyper.FabricaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fabrica.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fabrica";
+			};
+			name = Release;
+		};
+		4B4B2FFF2E55D9B1002210E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wyper.FabricaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fabrica;
+			};
+			name = Debug;
+		};
+		4B4B30002E55D9B1002210E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wyper.FabricaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fabrica;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B4B2FCF2E55D9AE002210E2 /* Build configuration list for PBXProject "Fabrica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4B2FF62E55D9B1002210E2 /* Debug */,
+				4B4B2FF72E55D9B1002210E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4B2FF82E55D9B1002210E2 /* Build configuration list for PBXNativeTarget "Fabrica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4B2FF92E55D9B1002210E2 /* Debug */,
+				4B4B2FFA2E55D9B1002210E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4B2FFB2E55D9B1002210E2 /* Build configuration list for PBXNativeTarget "FabricaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4B2FFC2E55D9B1002210E2 /* Debug */,
+				4B4B2FFD2E55D9B1002210E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4B2FFE2E55D9B1002210E2 /* Build configuration list for PBXNativeTarget "FabricaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4B2FFF2E55D9B1002210E2 /* Debug */,
+				4B4B30002E55D9B1002210E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B4B2FCC2E55D9AE002210E2 /* Project object */;
+}
